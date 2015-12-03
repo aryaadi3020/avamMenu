@@ -39,6 +39,6 @@ var avam;
             ;
             return AvamMenuGroupDirective;
         })();
-        angular.module("avam-menu").directive("avamMenuGroup", AvamMenuGroupDirective.instance);
+        angular.module("avamMenu").directive("avamMenuGroup", AvamMenuGroupDirective.instance);
     })(menu = avam.menu || (avam.menu = {}));
 })(avam || (avam = {}));

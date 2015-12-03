@@ -46,6 +46,6 @@ module avam.menu{
 					}
 				};	
 	}
-	angular.module("avam-menu").directive("avamMenuGroup", AvamMenuGroupDirective.instance);
+	angular.module("avamMenu").directive("avamMenuGroup", AvamMenuGroupDirective.instance);
 	
 }

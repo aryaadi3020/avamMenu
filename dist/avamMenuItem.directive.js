@@ -33,6 +33,6 @@ var avam;
             };
             return AvamMenuItemDirective;
         })();
-        angular.module("avam-menu").directive("avamMenuItem", AvamMenuItemDirective.instance);
+        angular.module("avamMenu").directive("avamMenuItem", AvamMenuItemDirective.instance);
     })(menu = avam.menu || (avam.menu = {}));
 })(avam || (avam = {}));

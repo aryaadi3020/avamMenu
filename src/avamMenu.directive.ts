@@ -82,5 +82,5 @@ module avam.menu{
 		}	
 				
 	}
-	angular.module("avam-menu").directive("avamMenu", AvamMenuDirective.instance);
+	angular.module("avamMenu").directive("avamMenu", AvamMenuDirective.instance);
 }

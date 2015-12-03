@@ -1,4 +1,4 @@
 module avam.proto{
 	'use strict';
-	angular.module("avam", ["avam-menu"]);
+	angular.module("avam", ["avamMenu"]);
 }

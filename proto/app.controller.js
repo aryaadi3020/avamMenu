@@ -29,4 +29,3 @@ var avam;
         angular.module("avam").controller('appController', ApplicationController);
     })(proto = avam.proto || (avam.proto = {}));
 })(avam || (avam = {}));
-//# sourceMappingURL=app.controller.js.map

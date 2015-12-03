@@ -6,5 +6,9 @@
 		"removeComments": true,
 		"noResolve": true,
 		"noLib": false
-	}
+	},
+	"files": [
+		"proto/app.ts",
+		"proto/app.controller.cs"
+	]
 }
