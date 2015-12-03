@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="avam">
+
+<head>
+	<title>AVAM Menu</title>
+	<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="src/avamMenu.css">
+</head>
+
+<body class="container-fluid" ng-controller="appController as vm">
+	<div>
+		<h1>...</h1>
+		
+	</div>
+	<div >
+		<avam-menu allow-toggle="true" orientation="horizontal">
+			<avam-menu-item label="Dashboard" icon="glyphicon-dashboard" route="Dashboard"></avam-menu-item>
+			<avam-menu-item label="Income Statement" icon="glyphicon-phone"  route="Income Statement"></avam-menu-item>
+			<avam-menu-item label="Help" icon="glyphicon-phone-alt"  route="Help"></avam-menu-item>
+			<avam-menu-group label="Sub Menu" icon="glyphicon-cd">
+				
+				<avam-menu-item label="Sub Menu 1" icon="glyphicon-phone" route="Sub Menu 1"></avam-menu-item>
+				<avam-menu-item label="Sub Menu 2" icon="glyphicon-dashboard" route="Sub Menu 2"></avam-menu-item>
+				<avam-menu-item label="Sub Menu 3" icon="glyphicon-phone" route="Sub Menu 3"></avam-menu-item>
+			</avam-menu-group>
+		</avam-menu>
+		<div style="position:absolute; left:300px; top: 200px; color:red">
+			{{vm.route}}
+		</div>
+	</div>
+	
+	<script src="lib/jquery/dist/jquery.js"></script>
+	<script src="lib/angular/angular.js"></script>
+	<script src="lib/angular-animate/angular-animate.js"></script>
+	
+	<!--AVAM MENU SCRIPT FILES-->
+	<!--<script src="dist/avamMenu.module.js"></script>
+	<script src="dist/avamMenu.directive.js"></script>
+	<script src="dist/avamMenuItem.directive.js"></script>
+	<script src="dist/avamMenuGroup.directive.js"></script>-->
+	
+	<script src="dist/avam-menu.js"></script>
+
+	<script src="proto/app.js"></script>
+	<script src="proto/app.controller.js"></script>
+</body>
+
+</html>
